@@ -1,2 +1,2 @@
 #!/bin/bash
-parent_dir=$(dirname $(pwd)) cp "$file" "$parent_dir"
+cp -u *.html ..
